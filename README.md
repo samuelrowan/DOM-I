@@ -11,10 +11,10 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
+* [X] Create a forked copy of this project.
 * [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 * [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -25,8 +25,8 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 1: Create selectors to point your data into elements
-* [ ] Create selectors by using any of the DOM element's methods
-* [ ] Note that IDs have been used on all images.  Use the IDs to update src path content
+* [x] Create selectors by using any of the DOM element's methods
+* [x] Note that IDs have been used on all images.  Use the IDs to update src path content
 
 ## Task 2: Update the HTML with the JSON data
 * [ ] Remember, NO direct updating of the HTML source is allowed.
@@ -43,4 +43,4 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 * [ ] Study tomorrow's lesson on events and try to integrate a button that can update content on the site with a click of a button.  You could build a similar data object with new values to help you test the click event.
 
 ## Stretch Project: Digital Timer
-This project is heavier on logic but employs some DOM manipulation to achieve it's goals.  Go check it out here: [stretch assignment](stretch-assignment) and see how far you can get. 
+This project is heavier on logic but employs some DOM manipulation to achieve it's goals.  Go check it out here: [stretch assignment](stretch-assignment) and see how far you can get.
