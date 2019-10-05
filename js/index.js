@@ -47,5 +47,13 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"])
 let middleImg = document.getElementById('middle-img');
 middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
-let ctaText = document.querySelectorAll('.cta-text');
-ctaText
+function contentUpdate(divName, className){
+  if (typeof divName === 'object') {
+    for (const key in divName) {
+      deepIterator(divName[key]);
+    }
+  } else {
+    console.log(target);
+  }
+}
+contentUpdate("cta", ".cta");
